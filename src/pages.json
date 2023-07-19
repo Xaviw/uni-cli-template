@@ -3,6 +3,10 @@
     {
       "path": "pages/index",
       "type": "home"
+    },
+    {
+      "path": "pages/hi",
+      "type": "page"
     }
   ],
   "globalStyle": {
@@ -12,7 +16,7 @@
     "backgroundTextStyle": "@bgTxtStyle",
     "navigationBarBackgroundColor": "#000000",
     "navigationBarTextStyle": "@navTxtStyle",
-    "navigationBarTitleText": "Vitess-Uni",
+    "navigationBarTitleText": "uniapp模板",
     "navigationStyle": "custom"
   },
   "easycom": {
