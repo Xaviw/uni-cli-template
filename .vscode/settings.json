@@ -6,7 +6,7 @@
   },
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "vite.config.*": "pages.config.*, manifest.config.*, uno.config.*, volar.config.*, .editorconfig, .eslintignore, .eslintrc, .gitignore, .npmrc, renovate.json",
+    "vite.config.*": "uno.config.*, volar.config.*, .editorconfig, .eslintignore, .eslintrc, .gitignore, .npmrc, renovate.json, tsconfig.json",
     ".env": ".env.*"
   },
   "typescript.tsdk": "node_modules/typescript/lib"

@@ -3,21 +3,19 @@
     {
       "path": "pages/index",
       "type": "home"
-    },
-    {
-      "path": "pages/hi",
-      "type": "page"
     }
   ],
   "globalStyle": {
-    "backgroundColor": "@bgColor",
-    "backgroundColorBottom": "@bgColorBottom",
-    "backgroundColorTop": "@bgColorTop",
-    "backgroundTextStyle": "@bgTxtStyle",
-    "navigationBarBackgroundColor": "#000000",
-    "navigationBarTextStyle": "@navTxtStyle",
     "navigationBarTitleText": "uniapp模板",
-    "navigationStyle": "custom"
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTextStyle": "@navTxtStyle",
+    "backgroundColor": "@bgColor",
+    "backgroundTextStyle": "@bgTxtStyle",
+    "backgroundColorTop": "@bgColorTop",
+    "backgroundColorBottom": "@bgColorBottom",
+    "app-plus": {
+      "background": "@bgColor"
+    }
   },
   "easycom": {
     "autoscan": true,

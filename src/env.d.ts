@@ -7,8 +7,11 @@ declare module '*.vue' {
   export default component
 }
 
+declare module '@/libs/amap-wx.130.js'
+
 interface ImportMetaEnv {
   readonly VITE_APP_TITLE: string
+  readonly VITE_AMAP_WX_KEY: string
   // 更多环境变量...
 }
 

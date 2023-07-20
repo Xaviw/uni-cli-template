@@ -1,4 +1,4 @@
-// uni-network polyfill
+// @uni-helper/uni-use需要使用这些polyfill
 import 'core-js/actual/array/iterator'
 import 'core-js/actual/promise'
 import 'core-js/actual/object/assign'

@@ -3,14 +3,16 @@ import { defineUniPages } from '@uni-helper/vite-plugin-uni-pages'
 export default defineUniPages({
   pages: [],
   globalStyle: {
-    backgroundColor: '@bgColor',
-    backgroundColorBottom: '@bgColorBottom',
-    backgroundColorTop: '@bgColorTop',
-    backgroundTextStyle: '@bgTxtStyle',
-    navigationBarBackgroundColor: '#000000',
-    navigationBarTextStyle: '@navTxtStyle',
-    navigationBarTitleText: 'uniapp模板',
-    navigationStyle: 'custom',
+    'navigationBarTitleText': 'uniapp模板',
+    'navigationBarBackgroundColor': '@navBgColor',
+    'navigationBarTextStyle': '@navTxtStyle',
+    'backgroundColor': '@bgColor',
+    'backgroundTextStyle': '@bgTxtStyle',
+    'backgroundColorTop': '@bgColorTop',
+    'backgroundColorBottom': '@bgColorBottom',
+    'app-plus': {
+      background: '@bgColor',
+    },
   },
   // tabBar: {
   //   backgroundColor: "@tabBgColor",
